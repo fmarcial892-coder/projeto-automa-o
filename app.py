@@ -23,6 +23,7 @@ def iniciar_processo_robo():
 def inject_globals():
     return {
         "whatsapp_url": f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(WHATSAPP_MESSAGE)}",
+        "whatsapp_link": lambda message: f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(message)}",
         "year": time.localtime().tm_year,
     }
 

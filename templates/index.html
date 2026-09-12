@@ -12,15 +12,19 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#inicio" aria-label="Giga+ início"><span class="brand-mark">+</span><span>giga<span class="brand-plus">+</span></span></a>
-      <nav class="desktop-nav" aria-label="Navegação principal">
-        <a href="#beneficios">Por que Giga+</a><a href="#como-funciona">Como funciona</a><a href="#faq">Dúvidas</a><a href="#contato">Contato</a>
-      </nav>
-      <a class="nav-cta" href="{{ whatsapp_url }}" target="_blank" rel="noopener">Falar com a gente <span>↗</span></a>
-      <button class="menu-button" aria-label="Abrir menu">☰</button>
+    <div class="container nav-wrap reference-header">
+      <a class="brand official-brand" href="#inicio" aria-label="Giga+ início"><span>GIGA<span class="brand-plus">+</span></span></a>
+      <a class="invoice-link" href="https://central-assinante.gigamaisfibra.com.br/boleto-rapido" target="_blank" rel="noopener">2ª via da fatura</a>
     </div>
   </header>
+  <nav class="category-nav" aria-label="Categorias"><div class="container category-inner"><a class="active" href="#inicio">Para sua Casa</a><a href="#contato">Para sua Empresa</a></div></nav>
+
+  <div class="city-backdrop" id="city-gate" role="dialog" aria-modal="true" aria-labelledby="city-title">
+    <div class="city-modal">
+      <div class="city-modal-title"><h2 id="city-title">Conheça os planos disponíveis para você</h2></div>
+      <div class="city-modal-body"><label for="city-select">Qual a sua cidade?</label><select id="city-select"><option value="">Selecione a sua cidade</option><option>Além Paraíba - MG</option><option>Campos dos Goytacazes - RJ</option><option>Franca - SP</option><option>Guarapari - ES</option><option>Maringá - PR</option><option>Petrópolis - RJ</option><option>São José dos Campos - SP</option><option>São Paulo - SP</option><option>Outra cidade</option></select><button id="city-continue" class="city-continue" disabled>Continuar</button><p class="city-note" id="city-note">Selecione uma cidade para consultar a disponibilidade.</p></div>
+    </div>
+  </div>
 
   <main id="inicio">
     <section class="hero section-pad">
@@ -48,7 +52,7 @@
   </main>
 
   <footer class="site-footer"><div class="container footer-top"><a class="brand" href="#inicio"><span class="brand-mark">+</span><span>giga<span class="brand-plus">+</span></span></a><p>Conectando você ao que importa.</p><div class="footer-links"><a href="/privacidade">Privacidade</a><a href="/termos">Termos de uso</a><a href="/cookies">Cookies</a></div></div><div class="container footer-bottom"><span>© {{ year }} Giga+. Todos os direitos reservados.</span><span>Atendimento pelo WhatsApp: (12) 98116-0171</span></div></footer>
-  <div class="whatsapp-float"><a href="{{ whatsapp_url }}" target="_blank" rel="noopener" aria-label="Falar com a Giga+ pelo WhatsApp">◔<span>Fale com a gente</span></a></div>
+  <div class="contact-dock"><a href="{{ whatsapp_url }}" target="_blank" rel="noopener" aria-label="Falar com a Giga+ pelo WhatsApp"><strong>◔</strong><span>Falar pelo WhatsApp</span></a><a class="phone" href="tel:08001035303" aria-label="Ligar para Giga+ Fibra"><strong>⌕</strong><span>Contratar pelo<br><b>0800 103 5303</b></span></a></div>
   <script src="{{ url_for('static', filename='js/site.js') }}"></script>
 </body>
 </html>

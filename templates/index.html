@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Giga+: internet para conectar sua rotina. Consulte a disponibilidade e conheça as opções para sua região.">
+  <meta name="robots" content="index, follow">
+  <title>Giga+ | Conecte-se ao que importa</title>
+  <link rel="canonical" href="/">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Giga+ início"><span class="brand-mark">+</span><span>giga<span class="brand-plus">+</span></span></a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#beneficios">Por que Giga+</a><a href="#como-funciona">Como funciona</a><a href="#faq">Dúvidas</a><a href="#contato">Contato</a>
+      </nav>
+      <a class="nav-cta" href="{{ whatsapp_url }}" target="_blank" rel="noopener">Falar com a gente <span>↗</span></a>
+      <button class="menu-button" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse"></span> Conexão para o seu dia a dia</div>
+          <h1>Mais conexão.<br><em>Mais possibilidades.</em></h1>
+          <p class="hero-text">A Giga+ ajuda você a ficar perto do que importa, com uma internet pensada para acompanhar sua rotina em casa, no trabalho e no lazer.</p>
+          <div class="hero-actions"><a class="button primary" href="{{ whatsapp_url }}" target="_blank" rel="noopener">Consultar disponibilidade <span>↗</span></a><a class="text-link" href="#como-funciona">Entenda como funciona <span>↓</span></a></div>
+          <div class="trust-row"><div class="avatars"><span>G</span><span>+</span><span>•</span></div><p>Atendimento próximo e<br><strong>suporte para orientar você</strong></p></div>
+        </div>
+        <div class="hero-art" aria-label="Ilustração abstrata de conexão"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="spark spark-one">✦</div><div class="spark spark-two">✦</div><div class="signal-card"><span class="signal-icon">⌁</span><div><strong>Conectado</strong><small>ao que importa</small></div></div></div>
+      </div>
+    </section>
+
+    <section class="ticker"><div class="container ticker-inner"><span>CONEXÃO</span><i>✦</i><span>PROXIMIDADE</span><i>✦</i><span>TRANQUILIDADE</span><i>✦</i><span>GIGA+</span><i>✦</i><span>CONEXÃO</span></div></section>
+
+    <section class="section-pad benefits" id="beneficios"><div class="container"><div class="section-intro"><div><div class="eyebrow">O que você pode esperar</div><h2>Uma experiência mais<br><em>simples e próxima.</em></h2></div><p>A gente acredita que contratar internet não precisa ser complicado. Conte com informação clara para escolher o que faz sentido para você.</p></div><div class="feature-grid"><article class="feature-card featured"><div class="feature-icon">↗</div><h3>Atendimento que<br>escuta você</h3><p>Fale com uma equipe preparada para tirar suas dúvidas e ajudar na sua escolha.</p><a href="{{ whatsapp_url }}" target="_blank" rel="noopener">Conversar com a Giga+ <span>↗</span></a></article><article class="feature-card"><div class="feature-icon soft">◌</div><h3>Opções para<br>sua rotina</h3><p>Conheça as opções disponíveis para o seu endereço e encontre uma que combine com você.</p></article><article class="feature-card"><div class="feature-icon soft">⌁</div><h3>Clareza do<br>começo ao fim</h3><p>Informações transparentes, sem promessa exagerada e sem complicação.</p></article></div></div></section>
+
+    <section class="how section-pad" id="como-funciona"><div class="container"><div class="eyebrow">É fácil começar</div><h2>Do seu jeito, <em>sem enrolação.</em></h2><div class="steps"><div class="step"><span>01</span><div><h3>Chame a gente</h3><p>Envie uma mensagem pelo WhatsApp para iniciar o atendimento.</p></div></div><div class="step"><span>02</span><div><h3>Consulte seu endereço</h3><p>Verificamos a disponibilidade e apresentamos as alternativas para sua região.</p></div></div><div class="step"><span>03</span><div><h3>Escolha com calma</h3><p>Tire suas dúvidas e decida com todas as informações em mãos.</p></div></div></div><a class="button light" href="{{ whatsapp_url }}" target="_blank" rel="noopener">Quero falar com a Giga+ <span>↗</span></a></div></section>
+
+    <section class="faq section-pad" id="faq"><div class="container faq-grid"><div><div class="eyebrow">Perguntas frequentes</div><h2>Ficou com<br><em>alguma dúvida?</em></h2><p class="muted">Se não encontrar a resposta, fale com a gente pelo WhatsApp.</p></div><div class="faq-list"><details open><summary>A Giga+ atende minha região? <span>+</span></summary><p>A disponibilidade depende do endereço. Envie seu CEP ou endereço pelo WhatsApp e nossa equipe verifica para você.</p></details><details><summary>Como conheço os planos disponíveis? <span>+</span></summary><p>Depois de consultar a disponibilidade, apresentamos as opções vigentes para sua localidade e explicamos as condições antes da contratação.</p></details><details><summary>Posso tirar dúvidas antes de contratar? <span>+</span></summary><p>Sim. Nosso atendimento está disponível para esclarecer suas dúvidas e ajudar você a avaliar as alternativas.</p></details><details><summary>Como entro em contato? <span>+</span></summary><p>Use o botão de WhatsApp desta página. O atendimento é feito pelo número informado no site.</p></details></div></div></section>
+
+    <section class="contact section-pad" id="contato"><div class="container contact-box"><div><div class="eyebrow">Vamos conversar?</div><h2>Seu próximo passo<br>começa <em>aqui.</em></h2></div><a class="button primary" href="{{ whatsapp_url }}" target="_blank" rel="noopener">Falar pelo WhatsApp <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-top"><a class="brand" href="#inicio"><span class="brand-mark">+</span><span>giga<span class="brand-plus">+</span></span></a><p>Conectando você ao que importa.</p><div class="footer-links"><a href="/privacidade">Privacidade</a><a href="/termos">Termos de uso</a><a href="/cookies">Cookies</a></div></div><div class="container footer-bottom"><span>© {{ year }} Giga+. Todos os direitos reservados.</span><span>Atendimento pelo WhatsApp: (12) 98116-0171</span></div></footer>
+  <div class="whatsapp-float"><a href="{{ whatsapp_url }}" target="_blank" rel="noopener" aria-label="Falar com a Giga+ pelo WhatsApp">◔<span>Fale com a gente</span></a></div>
+  <script src="{{ url_for('static', filename='js/site.js') }}"></script>
+</body>
+</html>

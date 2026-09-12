@@ -1,56 +1,72 @@
-from flask import Flask, jsonify
-import imaplib
+from flask import Flask, render_template, redirect, jsonify
 import threading
+import time
+from urllib.parse import quote
 
 app = Flask(__name__)
 
-# --- CONFIGURAÇÕES (Substitua depois) ---
-EMAIL_USER = 'seu_email@gmail.com'
-EMAIL_PASS = 'sua_senha_de_app'
-IMAP_SERVER = 'imap.gmail.com'
+WHATSAPP_NUMBER = "5512981160171"
+WHATSAPP_MESSAGE = "Olá! Quero consultar a disponibilidade e conhecer os planos da Giga+."
 
-# --- LÓGICA DO SEU ROBÔ ---
+
 def iniciar_processo_robo():
-    """
-    Esta função é o coração do seu programa. 
-    Ela vai rodar em 'segundo plano' para não travar o site.
-    """
+    """Rotina legada mantida para compatibilidade com o projeto original."""
     print("[!] Iniciando varredura de e-mails...")
     try:
-        # Aqui entra a lógica que discutimos antes
-        # 1. Conectar no e-mail
-        # 2. Buscar boletos
-        # 3. Baixar, Editar e Reenviar
-        
-        # Simulação de um processo demorado
-        import time
-        time.sleep(10) 
-        
+        time.sleep(10)
         print("[+] Processo concluído com sucesso!")
-        
-    except Exception as e:
-        print(f"[-] Erro durante o processamento: {e}")
+    except Exception as error:
+        print(f"[-] Erro durante o processamento: {error}")
 
-# --- ROTAS DO SEU SITE (O que aparece no link) ---
 
-@app.route('/')
+@app.context_processor
+def inject_globals():
+    return {
+        "whatsapp_url": f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(WHATSAPP_MESSAGE)}",
+        "year": time.localtime().tm_year,
+    }
+
+
+@app.route("/")
 def index():
-    return "<h1>Sistema de Automação de Boletos</h1><p>Status: Online</p>"
+    return render_template("index.html")
 
-@app.route('/executar')
+
+@app.route("/privacidade")
+def privacidade():
+    return render_template("privacidade.html")
+
+
+@app.route("/termos")
+def termos():
+    return render_template("termos.html")
+
+
+@app.route("/cookies")
+def cookies():
+    return render_template("cookies.html")
+
+
+@app.route("/contato")
+def contato():
+    return redirect("/" + "#contato")
+
+
+@app.route("/fale-conosco")
+def fale_conosco():
+    return redirect(f"https://wa.me/{WHATSAPP_NUMBER}?text=Ol%C3%A1%21%20Quero%20falar%20com%20a%20Giga%2B.")
+
+
+@app.route("/executar")
 def executar():
-    """
-    Quando você acessar 'seusite.com/executar', o robô começa a trabalhar.
-    """
-    # Usamos 'threading' para o robô rodar sem travar o link do site
-    thread = threading.Thread(target=iniciar_processo_robo)
+    """Rota técnica legada para o protótipo de automação."""
+    thread = threading.Thread(target=iniciar_processo_robo, daemon=True)
     thread.start()
-    
     return jsonify({
         "status": "Sucesso",
-        "mensagem": "O processo de varredura foi iniciado em segundo plano!"
+        "mensagem": "O processo de varredura foi iniciado em segundo plano!",
     })
 
-if __name__ == '__main__':
-    # O Render vai rodar seu app aqui
-    app.run(host='0.0.0.0', port=5000)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=False)

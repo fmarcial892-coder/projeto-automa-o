@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MVCV8QPH');</script>
+  <!-- End Google Tag Manager -->
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S33R4WG5FG"></script>
   <script>
@@ -14,6 +22,10 @@
   <meta name="description" content="Conheça as opções de internet Giga+ Fibra disponíveis para sua cidade."><meta name="robots" content="index, follow"><title>Giga+ Fibra | Internet para sua casa</title><link rel="canonical" href="/"><link rel="icon" href="data:,"><link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVCV8QPH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
 <header class="site-header"><div class="container nav-wrap reference-header"><a class="brand official-brand" href="#inicio" aria-label="Giga+ início"><span>GIGA<span class="brand-plus">+</span></span></a><a class="invoice-link" href="{{ whatsapp_url }}" target="_blank" rel="noopener">2ª via da fatura</a></div></header>
 <nav class="category-nav" aria-label="Categorias"><div class="container category-inner"><a class="active" href="#inicio">Para sua Casa</a><a href="#contato">Para sua Empresa</a></div></nav>
 <div class="city-backdrop" id="city-gate" role="dialog" aria-modal="true" aria-labelledby="city-title"><div class="city-modal"><div class="city-modal-title"><h2 id="city-title">Conheça os planos disponíveis para você</h2></div><div class="city-modal-body"><label for="city-search">Qual a sua cidade?</label><div class="city-search-wrap"><span>⌕</span><input id="city-search" type="search" placeholder="Digite para buscar sua cidade" autocomplete="off"></div><select id="city-select" size="6" aria-label="Cidades com cobertura"><option value="">Carregando cidades...</option></select><p class="city-count" id="city-count">Consultando cidades atendidas...</p><button id="city-continue" class="city-continue" disabled>Continuar</button><p class="city-note" id="city-note">Selecione uma cidade para consultar a disponibilidade.</p></div></div></div>

@@ -66,3 +66,19 @@ document.querySelectorAll('details').forEach(item => {
     if (icon) icon.textContent = item.open ? '−' : '+';
   });
 });
+
+const planToggle = document.querySelector('#plan-toggle');
+const planMenu = document.querySelector('#plan-menu');
+if (planToggle && planMenu) {
+  planToggle.addEventListener('click', () => {
+    const isOpen = planToggle.getAttribute('aria-expanded') === 'true';
+    planToggle.setAttribute('aria-expanded', String(!isOpen));
+    planMenu.hidden = isOpen;
+    planToggle.classList.toggle('is-open', !isOpen);
+  });
+  planMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    planMenu.hidden = true;
+    planToggle.setAttribute('aria-expanded', 'false');
+    planToggle.classList.remove('is-open');
+  }));
+}

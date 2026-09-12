@@ -18,3 +18,85 @@ EOF
 
 button.offer-select{display:block;cursor:pointer;background:#fff;font-family:'DM Sans',sans-serif;width:min(330px,100%);text-align:left}.offer-select.is-open{border-color:#0baf76;border-bottom-left-radius:0;border-bottom-right-radius:0}.offer-select.is-open span{display:inline-block;transform:rotate(180deg)}.plan-menu{width:min(330px,100%);margin:-16px auto 16px;border:1px solid #0baf76;border-top:0;border-radius:0 0 5px 5px;background:#fff;text-align:left;overflow:hidden;position:relative;z-index:3;box-shadow:0 10px 18px #16166b18}.plan-menu a{display:block;padding:12px 14px;border-top:1px solid #edf0f3;color:#0c0c78}.plan-menu a:first-child{border-top:0}.plan-menu a:hover{background:#effbf6}.plan-menu b,.plan-menu span,.plan-menu strong{display:block}.plan-menu b{font:700 14px 'Space Grotesk',sans-serif}.plan-menu span{font-size:10px;color:#68727e;margin-top:3px}.plan-menu strong{font-size:9px;color:#0a9b6f;margin-top:7px}.invoice-link{cursor:pointer}.contact-dock .phone strong{background:#0b0b94}
 @media(max-width:800px){.offers-section{padding-left:10px;padding-right:10px}.offers-heading h1 br{display:none}.offer-select,.plan-menu{width:min(100%,340px)}.plan-menu a{padding:14px}.plans-grid{width:100%;}.plan-card{width:100%}.included-row{padding:0 8px}.contact-dock{bottom:10px}.contact-dock a{min-height:42px}.city-modal{max-height:calc(100vh - 120px);overflow-y:auto}}
+
+/* Acessibilidade mobile: leitura ampliada e áreas de toque confortáveis */
+@media(max-width:800px){
+  body{font-size:16px;overflow-x:hidden}
+  .container{width:calc(100% - 28px)}
+  .reference-header{height:72px;padding:0 4px}
+  .official-brand{font-size:35px;letter-spacing:-2px}
+  .invoice-link{font-size:15px;font-weight:600}
+  .category-nav{height:62px}
+  .category-inner{gap:28px}
+  .category-inner a{font-size:16px;padding:20px 0 17px}
+  .city-backdrop{padding:86px 12px 20px}
+  .city-modal{width:100%;border-radius:12px;max-height:calc(100vh - 106px)}
+  .city-modal-title{padding:22px 20px}
+  .city-modal-title h2{font-size:21px}
+  .city-modal-body{padding:31px 20px 25px}
+  .city-modal-body label{font-size:22px;margin-bottom:15px}
+  .city-search-wrap{height:58px;margin-bottom:12px}
+  .city-search-wrap input{font-size:17px}
+  .city-modal-body select#city-select{height:178px;font-size:17px}
+  .city-modal-body select#city-select option{padding:13px 8px}
+  .city-count,.city-note{font-size:13px;line-height:1.4}
+  .city-continue{width:100%;height:58px;margin-top:22px;font-size:19px}
+  .offers-section{padding-top:42px;padding-bottom:62px}
+  .offers-heading .eyebrow{font-size:12px;letter-spacing:1.5px}
+  .offers-heading h1{font-size:23px;line-height:1.38}
+  .offer-select{height:58px;padding:15px 16px;font-size:16px;margin-top:24px}
+  .offer-select span{font-size:22px}
+  .plan-menu{margin-top:-24px}
+  .plan-menu a{padding:17px 16px}
+  .plan-menu b{font-size:18px}
+  .plan-menu span{font-size:14px;line-height:1.4}
+  .plan-menu strong{font-size:13px;margin-top:9px}
+  .availability-pill{font-size:14px;padding:13px 17px;margin-top:22px}
+  .included-row{font-size:13px;line-height:1.5;gap:10px;margin-top:24px}
+  .included-row b{font-size:13px}
+  .plans-grid{max-width:390px;gap:22px;margin-top:22px}
+  .plan-card{padding:27px 17px 19px;min-height:350px;border-radius:8px}
+  .plan-card h2{font-size:36px}
+  .plan-card h2 small{font-size:17px}
+  .plan-sub{font-size:14px;margin-bottom:17px}
+  .plan-tags span{font-size:12px;padding:7px 9px}
+  .from{font-size:12px;margin-top:20px}
+  .price{font-size:32px;margin-top:3px}
+  .price sup{font-size:14px}.price small{font-size:12px}
+  .plan-button,.plan-whatsapp{padding:13px;font-size:13px;margin-top:16px}
+  .legal-mini{font-size:10px;margin-top:13px}
+  .benefits-blue{padding:52px 0 58px}
+  .benefits-blue h2{font-size:23px;line-height:1.25;margin-bottom:29px}
+  .benefit-row{grid-template-columns:1fr 1fr;gap:10px}
+  .benefit-row article{min-height:170px;padding:20px 10px 14px}
+  .benefit-row article>span{font-size:29px;height:42px}
+  .benefit-row strong{font-size:14px;line-height:1.3}
+  .benefit-row p{font-size:11px;line-height:1.45;margin-top:11px}
+  .reasons{padding:68px 0}
+  .reasons-grid img{height:245px;border-radius:10px}
+  .reasons h2{font-size:29px;line-height:1.2}
+  .reasons-list li{padding:12px 0 12px 25px}
+  .reasons-list b{font-size:14px;line-height:1.35}
+  .reasons-list span{font-size:12px;line-height:1.45;margin-top:4px}
+  .evolution{padding:66px 0 72px}
+  .evolution h2{font-size:27px;line-height:1.25}
+  .evolution p{font-size:14px;line-height:1.65}
+  .evolution .button{font-size:16px;padding:17px 25px}
+  .section-pad{padding:68px 0}
+  .faq-grid{gap:35px}
+  .faq h2,.contact h2{font-size:32px;line-height:1.2}
+  .muted{font-size:16px}
+  .faq-list details{padding:24px 0}
+  .faq-list summary{font-size:17px;line-height:1.35;gap:15px}
+  .faq-list p{font-size:15px;line-height:1.65}
+  .contact-box{padding:36px 25px;border-radius:12px}
+  .contact .button{width:100%;font-size:16px;padding:17px}
+  .site-footer{padding:40px 0 30px}
+  .footer-top p,.footer-links a{font-size:13px}
+  .footer-bottom{font-size:12px;line-height:1.5}
+  .contact-dock{right:10px;bottom:12px;gap:8px}
+  .contact-dock a{min-height:50px;padding:9px 12px;font-size:13px}
+  .contact-dock a strong{width:36px;height:36px;font-size:20px}
+  .contact-dock a span{display:block;font-size:12px}
+}
+@media(max-width:360px){.container{width:calc(100% - 22px)}.official-brand{font-size:30px}.invoice-link{font-size:13px}.category-inner{gap:18px}.category-inner a{font-size:14px}.offers-heading h1{font-size:21px}.benefit-row{grid-template-columns:1fr}.benefit-row article:last-child{grid-column:auto;max-width:none}.contact-dock a span{display:none}}

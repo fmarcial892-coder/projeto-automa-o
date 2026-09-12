@@ -1,0 +1,1382 @@
+[
+  {
+    "name": "Acaraú",
+    "state": "CE"
+  },
+  {
+    "name": "Acopiara",
+    "state": "CE"
+  },
+  {
+    "name": "Aiuaba",
+    "state": "CE"
+  },
+  {
+    "name": "Antonina do Norte",
+    "state": "CE"
+  },
+  {
+    "name": "Aquiraz",
+    "state": "CE"
+  },
+  {
+    "name": "Araripe",
+    "state": "CE"
+  },
+  {
+    "name": "Arneiroz",
+    "state": "CE"
+  },
+  {
+    "name": "Assaré",
+    "state": "CE"
+  },
+  {
+    "name": "Barbalha",
+    "state": "CE"
+  },
+  {
+    "name": "Beberibe",
+    "state": "CE"
+  },
+  {
+    "name": "Brejo Santo",
+    "state": "CE"
+  },
+  {
+    "name": "Camocim",
+    "state": "CE"
+  },
+  {
+    "name": "Campos Sales",
+    "state": "CE"
+  },
+  {
+    "name": "Cariús",
+    "state": "CE"
+  },
+  {
+    "name": "Cascavel",
+    "state": "CE"
+  },
+  {
+    "name": "Catarina",
+    "state": "CE"
+  },
+  {
+    "name": "Caucaia",
+    "state": "CE"
+  },
+  {
+    "name": "Cedro",
+    "state": "CE"
+  },
+  {
+    "name": "Crateús",
+    "state": "CE"
+  },
+  {
+    "name": "Crato",
+    "state": "CE"
+  },
+  {
+    "name": "Cruz",
+    "state": "CE"
+  },
+  {
+    "name": "Eusébio",
+    "state": "CE"
+  },
+  {
+    "name": "Farias Brito",
+    "state": "CE"
+  },
+  {
+    "name": "Fortaleza",
+    "state": "CE"
+  },
+  {
+    "name": "Fortim",
+    "state": "CE"
+  },
+  {
+    "name": "Frecheirinha",
+    "state": "CE"
+  },
+  {
+    "name": "Granja",
+    "state": "CE"
+  },
+  {
+    "name": "Graça",
+    "state": "CE"
+  },
+  {
+    "name": "Ibiapina",
+    "state": "CE"
+  },
+  {
+    "name": "Icó",
+    "state": "CE"
+  },
+  {
+    "name": "Iguatu",
+    "state": "CE"
+  },
+  {
+    "name": "Independência",
+    "state": "CE"
+  },
+  {
+    "name": "Itaitinga",
+    "state": "CE"
+  },
+  {
+    "name": "Itapipoca",
+    "state": "CE"
+  },
+  {
+    "name": "Itarema",
+    "state": "CE"
+  },
+  {
+    "name": "Jati",
+    "state": "CE"
+  },
+  {
+    "name": "Jijoca de Jericoacoara",
+    "state": "CE"
+  },
+  {
+    "name": "Juazeiro do Norte",
+    "state": "CE"
+  },
+  {
+    "name": "Jucás",
+    "state": "CE"
+  },
+  {
+    "name": "Lavras da Mangabeira",
+    "state": "CE"
+  },
+  {
+    "name": "Limoeiro do Norte",
+    "state": "CE"
+  },
+  {
+    "name": "Maracanaú",
+    "state": "CE"
+  },
+  {
+    "name": "Maranguape",
+    "state": "CE"
+  },
+  {
+    "name": "Mauriti",
+    "state": "CE"
+  },
+  {
+    "name": "Missão Velha",
+    "state": "CE"
+  },
+  {
+    "name": "Mombaça",
+    "state": "CE"
+  },
+  {
+    "name": "Morada Nova",
+    "state": "CE"
+  },
+  {
+    "name": "Mucambo",
+    "state": "CE"
+  },
+  {
+    "name": "Orós",
+    "state": "CE"
+  },
+  {
+    "name": "Pacajus",
+    "state": "CE"
+  },
+  {
+    "name": "Pacatuba",
+    "state": "CE"
+  },
+  {
+    "name": "Pacujá",
+    "state": "CE"
+  },
+  {
+    "name": "Paracuru",
+    "state": "CE"
+  },
+  {
+    "name": "Paraipaba",
+    "state": "CE"
+  },
+  {
+    "name": "Parambu",
+    "state": "CE"
+  },
+  {
+    "name": "Pentecoste",
+    "state": "CE"
+  },
+  {
+    "name": "Pindoretama",
+    "state": "CE"
+  },
+  {
+    "name": "Piquet Carneiro",
+    "state": "CE"
+  },
+  {
+    "name": "Porteiras",
+    "state": "CE"
+  },
+  {
+    "name": "Quixadá",
+    "state": "CE"
+  },
+  {
+    "name": "Quixelô",
+    "state": "CE"
+  },
+  {
+    "name": "Russas",
+    "state": "CE"
+  },
+  {
+    "name": "Salitre",
+    "state": "CE"
+  },
+  {
+    "name": "Sobral",
+    "state": "CE"
+  },
+  {
+    "name": "São Benedito",
+    "state": "CE"
+  },
+  {
+    "name": "São Gonçalo do Amarante",
+    "state": "CE"
+  },
+  {
+    "name": "São Luís do Curu",
+    "state": "CE"
+  },
+  {
+    "name": "Tabuleiro do Norte",
+    "state": "CE"
+  },
+  {
+    "name": "Tarrafas",
+    "state": "CE"
+  },
+  {
+    "name": "Tauá",
+    "state": "CE"
+  },
+  {
+    "name": "Tianguá",
+    "state": "CE"
+  },
+  {
+    "name": "Trairi",
+    "state": "CE"
+  },
+  {
+    "name": "Ubajara",
+    "state": "CE"
+  },
+  {
+    "name": "Várzea Alegre",
+    "state": "CE"
+  },
+  {
+    "name": "Brasília (Ceilândia)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Gama)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Guará)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Recanto das Emas)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Riacho Fundo 1)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Riacho Fundo 2)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Samambaia)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Santa Maria)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Taguatinga)",
+    "state": "DF"
+  },
+  {
+    "name": "Brasília (Vicente Pires)",
+    "state": "DF"
+  },
+  {
+    "name": "Anchieta",
+    "state": "ES"
+  },
+  {
+    "name": "Cachoeiro de Itapemirim",
+    "state": "ES"
+  },
+  {
+    "name": "Cariacica",
+    "state": "ES"
+  },
+  {
+    "name": "Guarapari",
+    "state": "ES"
+  },
+  {
+    "name": "Itapemirim",
+    "state": "ES"
+  },
+  {
+    "name": "Marataízes",
+    "state": "ES"
+  },
+  {
+    "name": "Piúma",
+    "state": "ES"
+  },
+  {
+    "name": "Serra",
+    "state": "ES"
+  },
+  {
+    "name": "Vila Velha",
+    "state": "ES"
+  },
+  {
+    "name": "Vitória",
+    "state": "ES"
+  },
+  {
+    "name": "Alto Alegre do Maranhão",
+    "state": "MA"
+  },
+  {
+    "name": "Alto Alegre do Pindaré",
+    "state": "MA"
+  },
+  {
+    "name": "Arari",
+    "state": "MA"
+  },
+  {
+    "name": "Açailândia",
+    "state": "MA"
+  },
+  {
+    "name": "Bacabal",
+    "state": "MA"
+  },
+  {
+    "name": "Balsas",
+    "state": "MA"
+  },
+  {
+    "name": "Barra do Corda",
+    "state": "MA"
+  },
+  {
+    "name": "Bom Jesus das Selvas",
+    "state": "MA"
+  },
+  {
+    "name": "Buriticupu",
+    "state": "MA"
+  },
+  {
+    "name": "Cajari",
+    "state": "MA"
+  },
+  {
+    "name": "Carolina",
+    "state": "MA"
+  },
+  {
+    "name": "Caxias",
+    "state": "MA"
+  },
+  {
+    "name": "Codó",
+    "state": "MA"
+  },
+  {
+    "name": "Estreito",
+    "state": "MA"
+  },
+  {
+    "name": "Grajaú",
+    "state": "MA"
+  },
+  {
+    "name": "Imperatriz",
+    "state": "MA"
+  },
+  {
+    "name": "Matinha",
+    "state": "MA"
+  },
+  {
+    "name": "Matões",
+    "state": "MA"
+  },
+  {
+    "name": "Monção",
+    "state": "MA"
+  },
+  {
+    "name": "Olinda Nova do Maranhão",
+    "state": "MA"
+  },
+  {
+    "name": "Parnarama",
+    "state": "MA"
+  },
+  {
+    "name": "Paço do Lumiar",
+    "state": "MA"
+  },
+  {
+    "name": "Penalva",
+    "state": "MA"
+  },
+  {
+    "name": "Pindaré Mirim",
+    "state": "MA"
+  },
+  {
+    "name": "Pio XII",
+    "state": "MA"
+  },
+  {
+    "name": "Presidente Dutra",
+    "state": "MA"
+  },
+  {
+    "name": "Riachão",
+    "state": "MA"
+  },
+  {
+    "name": "Santa Inês",
+    "state": "MA"
+  },
+  {
+    "name": "Santa Luzia",
+    "state": "MA"
+  },
+  {
+    "name": "São José de Ribamar",
+    "state": "MA"
+  },
+  {
+    "name": "São Luís",
+    "state": "MA"
+  },
+  {
+    "name": "São Mateus do Maranhão",
+    "state": "MA"
+  },
+  {
+    "name": "Timon",
+    "state": "MA"
+  },
+  {
+    "name": "Viana",
+    "state": "MA"
+  },
+  {
+    "name": "Vitória do Mearim",
+    "state": "MA"
+  },
+  {
+    "name": "Zé Doca",
+    "state": "MA"
+  },
+  {
+    "name": "Aguanil",
+    "state": "MG"
+  },
+  {
+    "name": "Alpinópolis",
+    "state": "MG"
+  },
+  {
+    "name": "Além Paraíba",
+    "state": "MG"
+  },
+  {
+    "name": "Araxá",
+    "state": "MG"
+  },
+  {
+    "name": "Boa Esperança",
+    "state": "MG"
+  },
+  {
+    "name": "Campo do Meio",
+    "state": "MG"
+  },
+  {
+    "name": "Campos Altos",
+    "state": "MG"
+  },
+  {
+    "name": "Campos Gerais",
+    "state": "MG"
+  },
+  {
+    "name": "Carmo do Rio Claro",
+    "state": "MG"
+  },
+  {
+    "name": "Cataguases",
+    "state": "MG"
+  },
+  {
+    "name": "Conquista",
+    "state": "MG"
+  },
+  {
+    "name": "Coqueiral",
+    "state": "MG"
+  },
+  {
+    "name": "Coromandel",
+    "state": "MG"
+  },
+  {
+    "name": "Cristais",
+    "state": "MG"
+  },
+  {
+    "name": "Delta",
+    "state": "MG"
+  },
+  {
+    "name": "Fortaleza de Minas",
+    "state": "MG"
+  },
+  {
+    "name": "Guapé",
+    "state": "MG"
+  },
+  {
+    "name": "Guaranésia",
+    "state": "MG"
+  },
+  {
+    "name": "Guaxupé",
+    "state": "MG"
+  },
+  {
+    "name": "Ibiá",
+    "state": "MG"
+  },
+  {
+    "name": "Ilicínea",
+    "state": "MG"
+  },
+  {
+    "name": "Itaú de Minas",
+    "state": "MG"
+  },
+  {
+    "name": "Jacuí",
+    "state": "MG"
+  },
+  {
+    "name": "Monte Santo de Minas",
+    "state": "MG"
+  },
+  {
+    "name": "Muriaé",
+    "state": "MG"
+  },
+  {
+    "name": "Nepomuceno",
+    "state": "MG"
+  },
+  {
+    "name": "Nova Ponte",
+    "state": "MG"
+  },
+  {
+    "name": "Passos",
+    "state": "MG"
+  },
+  {
+    "name": "Pedrinópolis",
+    "state": "MG"
+  },
+  {
+    "name": "Perdizes",
+    "state": "MG"
+  },
+  {
+    "name": "Pratinha",
+    "state": "MG"
+  },
+  {
+    "name": "Pratápolis",
+    "state": "MG"
+  },
+  {
+    "name": "Sacramento",
+    "state": "MG"
+  },
+  {
+    "name": "Santa Juliana",
+    "state": "MG"
+  },
+  {
+    "name": "Santana da Vargem",
+    "state": "MG"
+  },
+  {
+    "name": "Serra do Salitre",
+    "state": "MG"
+  },
+  {
+    "name": "São Gotardo",
+    "state": "MG"
+  },
+  {
+    "name": "São José da Barra",
+    "state": "MG"
+  },
+  {
+    "name": "São João Batista do Glória",
+    "state": "MG"
+  },
+  {
+    "name": "São Sebastião do Paraíso",
+    "state": "MG"
+  },
+  {
+    "name": "São Tomás de Aquino",
+    "state": "MG"
+  },
+  {
+    "name": "Tapira",
+    "state": "MG"
+  },
+  {
+    "name": "Uberaba",
+    "state": "MG"
+  },
+  {
+    "name": "Uberlândia",
+    "state": "MG"
+  },
+  {
+    "name": "Campo Grande",
+    "state": "MS"
+  },
+  {
+    "name": "Dourados",
+    "state": "MS"
+  },
+  {
+    "name": "Abaetetuba",
+    "state": "PA"
+  },
+  {
+    "name": "Benevides",
+    "state": "PA"
+  },
+  {
+    "name": "Bragança",
+    "state": "PA"
+  },
+  {
+    "name": "Dom Eliseu",
+    "state": "PA"
+  },
+  {
+    "name": "Eldorado dos Carajás",
+    "state": "PA"
+  },
+  {
+    "name": "Goianésia do Pará",
+    "state": "PA"
+  },
+  {
+    "name": "Jacundá",
+    "state": "PA"
+  },
+  {
+    "name": "Mãe do Rio",
+    "state": "PA"
+  },
+  {
+    "name": "Parauapebas",
+    "state": "PA"
+  },
+  {
+    "name": "Rondon do Pará",
+    "state": "PA"
+  },
+  {
+    "name": "Santa Luzia do Pará",
+    "state": "PA"
+  },
+  {
+    "name": "São Domingos do Araguaia",
+    "state": "PA"
+  },
+  {
+    "name": "São Miguel do Guamá",
+    "state": "PA"
+  },
+  {
+    "name": "Tailândia",
+    "state": "PA"
+  },
+  {
+    "name": "Tucuruí",
+    "state": "PA"
+  },
+  {
+    "name": "Ulianópolis",
+    "state": "PA"
+  },
+  {
+    "name": "Carnaíba",
+    "state": "PE"
+  },
+  {
+    "name": "Carpina",
+    "state": "PE"
+  },
+  {
+    "name": "Caruaru",
+    "state": "PE"
+  },
+  {
+    "name": "Flores",
+    "state": "PE"
+  },
+  {
+    "name": "Goiana",
+    "state": "PE"
+  },
+  {
+    "name": "Ilha de Itamaracá",
+    "state": "PE"
+  },
+  {
+    "name": "Ipojuca",
+    "state": "PE"
+  },
+  {
+    "name": "Itapissuma",
+    "state": "PE"
+  },
+  {
+    "name": "Limoeiro",
+    "state": "PE"
+  },
+  {
+    "name": "Mirandiba",
+    "state": "PE"
+  },
+  {
+    "name": "Nazaré da Mata",
+    "state": "PE"
+  },
+  {
+    "name": "Olinda",
+    "state": "PE"
+  },
+  {
+    "name": "Parnamirim",
+    "state": "PE"
+  },
+  {
+    "name": "Paudalho",
+    "state": "PE"
+  },
+  {
+    "name": "Paulista",
+    "state": "PE"
+  },
+  {
+    "name": "Salgueiro",
+    "state": "PE"
+  },
+  {
+    "name": "Santa Cruz do Capibaribe",
+    "state": "PE"
+  },
+  {
+    "name": "Serra Talhada",
+    "state": "PE"
+  },
+  {
+    "name": "Surubim",
+    "state": "PE"
+  },
+  {
+    "name": "Terra Nova",
+    "state": "PE"
+  },
+  {
+    "name": "Timbaúba",
+    "state": "PE"
+  },
+  {
+    "name": "Toritama",
+    "state": "PE"
+  },
+  {
+    "name": "Verdejante",
+    "state": "PE"
+  },
+  {
+    "name": "Altos",
+    "state": "PI"
+  },
+  {
+    "name": "Parnaíba",
+    "state": "PI"
+  },
+  {
+    "name": "Teresina",
+    "state": "PI"
+  },
+  {
+    "name": "Apucarana",
+    "state": "PR"
+  },
+  {
+    "name": "Arapongas",
+    "state": "PR"
+  },
+  {
+    "name": "Araruna",
+    "state": "PR"
+  },
+  {
+    "name": "Campo Mourão",
+    "state": "PR"
+  },
+  {
+    "name": "Cianorte",
+    "state": "PR"
+  },
+  {
+    "name": "Doutor Camargo",
+    "state": "PR"
+  },
+  {
+    "name": "Engenheiro Beltrão",
+    "state": "PR"
+  },
+  {
+    "name": "Jandaia do Sul",
+    "state": "PR"
+  },
+  {
+    "name": "Jussara",
+    "state": "PR"
+  },
+  {
+    "name": "Mandaguari",
+    "state": "PR"
+  },
+  {
+    "name": "Marialva",
+    "state": "PR"
+  },
+  {
+    "name": "Maringá",
+    "state": "PR"
+  },
+  {
+    "name": "Paiçandu",
+    "state": "PR"
+  },
+  {
+    "name": "Peabiru",
+    "state": "PR"
+  },
+  {
+    "name": "Rolândia",
+    "state": "PR"
+  },
+  {
+    "name": "Telêmaco Borba",
+    "state": "PR"
+  },
+  {
+    "name": "Ubiratã",
+    "state": "PR"
+  },
+  {
+    "name": "Aperibé",
+    "state": "RJ"
+  },
+  {
+    "name": "Araruama",
+    "state": "RJ"
+  },
+  {
+    "name": "Araruama (Praia Seca)",
+    "state": "RJ"
+  },
+  {
+    "name": "Armação dos Búzios",
+    "state": "RJ"
+  },
+  {
+    "name": "Arraial do Cabo",
+    "state": "RJ"
+  },
+  {
+    "name": "Barra Mansa",
+    "state": "RJ"
+  },
+  {
+    "name": "Barra do Piraí",
+    "state": "RJ"
+  },
+  {
+    "name": "Bom Jardim",
+    "state": "RJ"
+  },
+  {
+    "name": "Cabo Frio",
+    "state": "RJ"
+  },
+  {
+    "name": "Cachoeiras de Macacu",
+    "state": "RJ"
+  },
+  {
+    "name": "Cambuci",
+    "state": "RJ"
+  },
+  {
+    "name": "Campos dos Goytacazes",
+    "state": "RJ"
+  },
+  {
+    "name": "Cantagalo",
+    "state": "RJ"
+  },
+  {
+    "name": "Carmo",
+    "state": "RJ"
+  },
+  {
+    "name": "Casimiro de Abreu",
+    "state": "RJ"
+  },
+  {
+    "name": "Comendador Levy Gasparian",
+    "state": "RJ"
+  },
+  {
+    "name": "Cordeiro",
+    "state": "RJ"
+  },
+  {
+    "name": "Duas Barras",
+    "state": "RJ"
+  },
+  {
+    "name": "Guapimirim",
+    "state": "RJ"
+  },
+  {
+    "name": "Iguaba Grande",
+    "state": "RJ"
+  },
+  {
+    "name": "Itaocara",
+    "state": "RJ"
+  },
+  {
+    "name": "Itaperuna",
+    "state": "RJ"
+  },
+  {
+    "name": "Itatiaia",
+    "state": "RJ"
+  },
+  {
+    "name": "Itatiaia (Penedo)",
+    "state": "RJ"
+  },
+  {
+    "name": "Laje do Muriaé",
+    "state": "RJ"
+  },
+  {
+    "name": "Macaé",
+    "state": "RJ"
+  },
+  {
+    "name": "Macuco",
+    "state": "RJ"
+  },
+  {
+    "name": "Magé (Piabetá)",
+    "state": "RJ"
+  },
+  {
+    "name": "Magé (Santo Aleixo)",
+    "state": "RJ"
+  },
+  {
+    "name": "Miguel Pereira",
+    "state": "RJ"
+  },
+  {
+    "name": "Miracema",
+    "state": "RJ"
+  },
+  {
+    "name": "Nova Friburgo",
+    "state": "RJ"
+  },
+  {
+    "name": "Paraíba do Sul",
+    "state": "RJ"
+  },
+  {
+    "name": "Paty do Alferes",
+    "state": "RJ"
+  },
+  {
+    "name": "Petrópolis",
+    "state": "RJ"
+  },
+  {
+    "name": "Pinheiral",
+    "state": "RJ"
+  },
+  {
+    "name": "Porto Real",
+    "state": "RJ"
+  },
+  {
+    "name": "Resende",
+    "state": "RJ"
+  },
+  {
+    "name": "Rio das Ostras",
+    "state": "RJ"
+  },
+  {
+    "name": "Santo Antônio de Pádua",
+    "state": "RJ"
+  },
+  {
+    "name": "Sapucaia",
+    "state": "RJ"
+  },
+  {
+    "name": "Saquarema",
+    "state": "RJ"
+  },
+  {
+    "name": "Silva Jardim",
+    "state": "RJ"
+  },
+  {
+    "name": "Sumidouro",
+    "state": "RJ"
+  },
+  {
+    "name": "São Fidelis",
+    "state": "RJ"
+  },
+  {
+    "name": "São José de Ubá",
+    "state": "RJ"
+  },
+  {
+    "name": "São Pedro da Aldeia",
+    "state": "RJ"
+  },
+  {
+    "name": "Teresópolis",
+    "state": "RJ"
+  },
+  {
+    "name": "Três Rios",
+    "state": "RJ"
+  },
+  {
+    "name": "Valença (Barão de Juparanã)",
+    "state": "RJ"
+  },
+  {
+    "name": "Vassouras",
+    "state": "RJ"
+  },
+  {
+    "name": "Volta Redonda",
+    "state": "RJ"
+  },
+  {
+    "name": "Aracaju",
+    "state": "SE"
+  },
+  {
+    "name": "Barra dos Coqueiros",
+    "state": "SE"
+  },
+  {
+    "name": "Cedro de São João",
+    "state": "SE"
+  },
+  {
+    "name": "Divina Pastora",
+    "state": "SE"
+  },
+  {
+    "name": "Itaporanga D'Ajuda",
+    "state": "SE"
+  },
+  {
+    "name": "Japoatã",
+    "state": "SE"
+  },
+  {
+    "name": "Lagarto",
+    "state": "SE"
+  },
+  {
+    "name": "Laranjeiras",
+    "state": "SE"
+  },
+  {
+    "name": "Nossa Senhora do Socorro",
+    "state": "SE"
+  },
+  {
+    "name": "Pacatuba",
+    "state": "SE"
+  },
+  {
+    "name": "Propriá",
+    "state": "SE"
+  },
+  {
+    "name": "Rosário do Catete",
+    "state": "SE"
+  },
+  {
+    "name": "Siriri",
+    "state": "SE"
+  },
+  {
+    "name": "São Cristóvão",
+    "state": "SE"
+  },
+  {
+    "name": "Telha",
+    "state": "SE"
+  },
+  {
+    "name": "Altinópolis",
+    "state": "SP"
+  },
+  {
+    "name": "Aramina",
+    "state": "SP"
+  },
+  {
+    "name": "Bertioga",
+    "state": "SP"
+  },
+  {
+    "name": "Caraguatatuba",
+    "state": "SP"
+  },
+  {
+    "name": "Caçapava",
+    "state": "SP"
+  },
+  {
+    "name": "Cubatão",
+    "state": "SP"
+  },
+  {
+    "name": "Diadema",
+    "state": "SP"
+  },
+  {
+    "name": "Ferraz de Vasconcelos",
+    "state": "SP"
+  },
+  {
+    "name": "Franca",
+    "state": "SP"
+  },
+  {
+    "name": "Guarujá",
+    "state": "SP"
+  },
+  {
+    "name": "Guarulhos",
+    "state": "SP"
+  },
+  {
+    "name": "Guará",
+    "state": "SP"
+  },
+  {
+    "name": "Igarapava",
+    "state": "SP"
+  },
+  {
+    "name": "Ilhabela",
+    "state": "SP"
+  },
+  {
+    "name": "Ipuã",
+    "state": "SP"
+  },
+  {
+    "name": "Itanhaém",
+    "state": "SP"
+  },
+  {
+    "name": "Itaquaquecetuba",
+    "state": "SP"
+  },
+  {
+    "name": "Itirapuã",
+    "state": "SP"
+  },
+  {
+    "name": "Ituverava",
+    "state": "SP"
+  },
+  {
+    "name": "Jacareí",
+    "state": "SP"
+  },
+  {
+    "name": "Mauá",
+    "state": "SP"
+  },
+  {
+    "name": "Mogi das Cruzes",
+    "state": "SP"
+  },
+  {
+    "name": "Mongaguá",
+    "state": "SP"
+  },
+  {
+    "name": "Morro Agudo",
+    "state": "SP"
+  },
+  {
+    "name": "Orlândia",
+    "state": "SP"
+  },
+  {
+    "name": "Patrocínio Paulista",
+    "state": "SP"
+  },
+  {
+    "name": "Peruíbe",
+    "state": "SP"
+  },
+  {
+    "name": "Poá",
+    "state": "SP"
+  },
+  {
+    "name": "Praia Grande",
+    "state": "SP"
+  },
+  {
+    "name": "Ribeirão Pires",
+    "state": "SP"
+  },
+  {
+    "name": "Rio Grande da Serra",
+    "state": "SP"
+  },
+  {
+    "name": "Santo André",
+    "state": "SP"
+  },
+  {
+    "name": "Santos",
+    "state": "SP"
+  },
+  {
+    "name": "Suzano",
+    "state": "SP"
+  },
+  {
+    "name": "São Bernardo do Campo",
+    "state": "SP"
+  },
+  {
+    "name": "São Joaquim da Barra",
+    "state": "SP"
+  },
+  {
+    "name": "São José da Bela Vista",
+    "state": "SP"
+  },
+  {
+    "name": "São José dos Campos",
+    "state": "SP"
+  },
+  {
+    "name": "São Paulo",
+    "state": "SP"
+  },
+  {
+    "name": "São Sebastião",
+    "state": "SP"
+  },
+  {
+    "name": "São Vicente",
+    "state": "SP"
+  },
+  {
+    "name": "Taubaté",
+    "state": "SP"
+  },
+  {
+    "name": "Tremembé",
+    "state": "SP"
+  }
+]

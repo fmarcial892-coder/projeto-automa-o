@@ -98,5 +98,13 @@ document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
         event_label: message
       });
     }
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-18446058147/Z9HmCMrN5vQcEKOF4ttE',
+        value: 1.0,
+        currency: 'BRL'
+      });
+    }
+
   });
 });

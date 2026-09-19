@@ -13,6 +13,7 @@ def inject_globals():
     return {
         "whatsapp_url": f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(WHATSAPP_MESSAGE)}",
         "whatsapp_link": lambda message: f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(message)}",
+        "whatsapp_link_to": lambda number, message: f"https://wa.me/{number}?text={quote(message)}",
         "year": time.localtime().tm_year,
     }
 

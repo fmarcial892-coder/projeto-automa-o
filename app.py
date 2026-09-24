@@ -4,7 +4,7 @@ from urllib.parse import quote
 
 app = Flask(__name__)
 
-WHATSAPP_NUMBER = "5511959303874"
+WHATSAPP_NUMBER = "5511972938984"
 WHATSAPP_MESSAGE = "Olá! Quero consultar a disponibilidade e conhecer os planos da Giga+."
 
 

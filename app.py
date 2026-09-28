@@ -4,7 +4,7 @@ from urllib.parse import quote
 
 app = Flask(__name__)
 
-WHATSAPP_NUMBER = "5511972938984"
+WHATSAPP_NUMBER = "5588920033309"
 WHATSAPP_MESSAGE = "Olá! Quero consultar a disponibilidade e conhecer os planos da Giga+."
 
 
@@ -13,7 +13,7 @@ def inject_globals():
     return {
         "whatsapp_url": f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(WHATSAPP_MESSAGE)}",
         "whatsapp_link": lambda message: f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(message)}",
-        "whatsapp_link_to": lambda number, message: f"https://wa.me/{number}?text={quote(message)}",
+        "whatsapp_link_to": lambda number, message: f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(message)}",
         "year": time.localtime().tm_year,
     }
 
